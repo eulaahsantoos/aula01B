@@ -54,6 +54,30 @@
     transition: 2s;
 }
 
+
 .buttonSearch:hover{
     transform: scale(1.2);
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main h2{
+    margin-top: 16px;
+    font-size: 30px;
+
+}
+
+.main span{
+    margin-bottom: 16px;
+    font-size: 300;
+
 }
